@@ -81,13 +81,10 @@ const getColorRgbaForPelper = (value) => {
     return 'rgb(0, 20, 255)'
   }
 }
-
 const renshuClick = (id) => {
   dialogTableVisible.value = true
   getPlayerCountHistory(id)
 }
-
-
 const serachServer = async(stringUrl)=> {
   let dizhiObj = {}
   let params = {
