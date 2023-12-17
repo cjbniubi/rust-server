@@ -106,7 +106,7 @@ const serachServer = async(stringUrl)=> {
 
 <template>
   <div>
-    git hook
+    git hook git hookgit hookgit hookgit hookgit hook
     <el-table :data="tableData" border style="width: 100%">
       <el-table-column prop label="排名" width="80">
         <template v-slot="{row}">{{ '#'+row.rank}}</template>
