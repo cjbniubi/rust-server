@@ -106,7 +106,7 @@ const serachServer = async(stringUrl)=> {
 
 <template>
   <div>
-    435345
+    发过火反感回复打工魂对方过后
     <el-table :data="tableData" border style="width: 100%">
       <el-table-column prop label="排名" width="80">
         <template v-slot="{row}">{{ '#'+row.rank}}</template>
